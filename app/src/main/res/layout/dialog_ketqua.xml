@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/help_call_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/bgr"
+        android:padding="5dp"
+        android:text="Cám ơn bạn, chúng tôi sẽ báo kết quả qua tin nhắn."
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/imagespacecall2"
+        android:id="@+id/rlngang"
+       >
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@color/bgr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/rl_C"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đóng"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#ffea00"/></RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

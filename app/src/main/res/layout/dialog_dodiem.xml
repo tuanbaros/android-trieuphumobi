@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/help_call_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvThongbao"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/bgr"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="@string/dodiem"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/rlngang"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/imagespacecall2"></RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bgr"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_C"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Có"
+                android:textColor="#ffea00"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/imagespacecall1">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_K"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Không"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                 />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

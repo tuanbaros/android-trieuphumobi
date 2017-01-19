@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ai Là Triệu Phú</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AChartEngineBarChart</string>
+    <string name="str_btn_chart">Income vs Expense Bar Chart</string>
+    <string name="facebook_app_id">832799120072886</string>
+    <string name="help">Game có sử dụng thu phí SMS,20.000 đ= 30 lượt chơi.\n- So sánh điểm cao = 5.000 đ.\n- Miễn phí 5 lượt chơi đầu.</string>
+    <string name="dodiem">Xin chúc mừng, bạn được 1000 điểm! Bạn có muoons đọ điểm với cộng đồng không. Giá 5.000đ/SMS</string>
+    <string name="coinend">Bạn đã hết lượt chơi!\n\nBạn có muốn gửi SMS 20.000 VNĐ đê mua 30 lượt chơi không?\n\nBạn có thể thanh toán bằng thẻ cào với nhiều ưu đãi hơn.</string>
+    <string name="coin">Bạn có muốn gửi SMS 20.000 VNĐ đê mua 30 lượt chơi không?\n\nBạn có thể thanh toán bằng thẻ cào với nhiều ưu đãi hơn.</string>
+    <!--add coin-->
+    <string name="CARD_CHARGING_URL_1PAY">http://sms.amobi.vn/api/1pay?api_type=topup</string>
+    <string name="access_key_amb">1vh7blqcsbaq2wcjqcpg</string>
+    <string name="access_key_vgroup">xc1xlao4czhkh123ig0x</string>
+    <string name="secret_amb">519inyzbtm39yxnnjcfghkil8ofi9kgv</string>
+    <string name="secret_vgroup">2zpyc21n3m1jziw98o5evvu4x7ll72x2</string>
+</resources>

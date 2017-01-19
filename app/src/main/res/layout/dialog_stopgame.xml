@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#bf000000">
+
+    <RelativeLayout
+        android:id="@+id/rl_ykien"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/help_call_bg"
+        android:layout_below="@+id/imgEnd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="@drawable/imagespacecall2"
+            android:id="@+id/rlngang"
+            android:layout_marginTop="130dp">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/rlngang">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn muốn dừng cuộc chơi tại đây?"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:id="@+id/textView25"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlngang"
+            android:layout_centerHorizontal="true">
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/imagespacecall1"
+                android:id="@+id/relativeLayout2">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/relativeLayout2"
+                android:layout_toStartOf="@+id/relativeLayout2"
+                android:id="@+id/Rlayout_true"
+                android:background="@drawable/select_btn">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ĐÚNG VẬY"
+                    android:id="@+id/textView29"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#D69116"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/relativeLayout2"
+                android:layout_toEndOf="@+id/relativeLayout2"
+                android:id="@+id/Rlayout_false"
+                android:background="@drawable/select_btn">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KHÔNG PHẢI"
+                    android:id="@+id/textView30"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#D69116"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imgEnd"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/btn_stop"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
